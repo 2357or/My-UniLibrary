@@ -1,0 +1,400 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>R2357</name>
+    </assembly>
+    <members>
+        <member name="T:R2357.Algorithm.Change">
+            <summary>
+            Change the value.
+            </summary>
+            <summary>
+            Change the value.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.Int32@,System.Int32)">
+            <summary>
+            Update to the maximum value(int).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.UInt32@,System.UInt32)">
+            <summary>
+            Update to the maximum value(uint).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.Int64@,System.Int64)">
+            <summary>
+            Update to the maximum value(long).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.UInt64@,System.UInt64)">
+            <summary>
+            Update to the maximum value(ulong).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.Int16@,System.Int16)">
+            <summary>
+            Update to the maximum value(short).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.UInt16@,System.UInt16)">
+            <summary>
+            Update to the maximum value(ushort).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.Byte@,System.Byte)">
+            <summary>
+            Update to the maximum value(byte).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Max(System.Char@,System.Char)">
+            <summary>
+            Update to the maximum value(char).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.Int32@,System.Int32)">
+            <summary>
+            Update to the minimum value(int).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.UInt32@,System.UInt32)">
+            <summary>
+            Update to the minimum value(uint).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.Int64@,System.Int64)">
+            <summary>
+            Update to the minimum value(long).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.UInt64@,System.UInt64)">
+            <summary>
+            Update to the minimum value(ulong).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.Int16@,System.Int16)">
+            <summary>
+            Update to the minimum value(short).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.UInt16@,System.UInt16)">
+            <summary>
+            Update to the minimum value(ushort).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.Byte@,System.Byte)">
+            <summary>
+            Update to the minimum value(byte).
+            </summary>>
+        </member>
+        <member name="M:R2357.Algorithm.Change.Min(System.Char@,System.Char)">
+            <summary>
+            Update to the minimum value(char).
+            </summary>
+        </member>
+        <member name="T:R2357.Algorithm.Search">
+            <summary>
+            Perform a search
+            </summary>
+            <summary>
+            Perform a search
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.LowerBound``1(System.Collections.Generic.List{``0},``0)">
+            <summary>
+            Returns the first index in which a value greater than or equal to the specified element appears.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.LowerBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.Comparer{``0})">
+            <summary>
+            Returns the first index in which a value greater than or equal to the specified element appears.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.UpperBound``1(System.Collections.Generic.List{``0},``0)">
+            <summary>
+            Returns the first index in which a value greater than to the specified element appears.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.UpperBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.Comparer{``0})">
+            <summary>
+            Returns the first index in which a value greater than to the specified element appears.
+            </summary>
+        </member>
+        <member name="T:R2357.Debug.Print">
+            <summary>
+            Output log to console
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Print.Log(System.Object)">
+            <summary>
+            Output normal log.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:R2357.Debug.Print.Log(System.Object[])">
+            <summary>
+            Output normal logs.
+            </summary>
+            <param name="messages"></param>
+        </member>
+        <member name="M:R2357.Debug.Print.Warning(System.Object)">
+            <summary>
+            Output warning log.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:R2357.Debug.Print.Warning(System.Object[])">
+            <summary>
+            Output warning logs.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:R2357.Debug.Print.Error(System.Object)">
+            <summary>
+            Output error log.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="M:R2357.Debug.Print.Error(System.Object[])">
+            <summary>
+            Output error logs.
+            </summary>
+            <param name="message"></param>
+        </member>
+        <member name="T:R2357.TextMarkup.TextColorHelper">
+            <summary>
+            The HelperClass of TextColor(Enum).
+            </summary>
+        </member>
+        <member name="M:R2357.TextMarkup.TextColorHelper.HexNumber(R2357.TextMarkup.TextColor)">
+            <summary>
+            Return the TextColor as a hexadecimal number.
+            </summary>
+            <param name="textColor"></param>
+            <returns></returns>
+        </member>
+        <member name="T:R2357.TextMarkup.TextColor">
+            <summary>
+            Color name of the text markup.
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.aqua">
+            <summary>
+            #00ffffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.black">
+            <summary>
+            #000000ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.blue">
+            <summary>
+            #0000ffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.brown">
+            <summary>
+            #a52a2aff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.cyan">
+            <summary>
+            #00ffffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.darkblue">
+            <summary>
+            #0000a0ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.fuchsia">
+            <summary>
+            #ff00ffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.green">
+            <summary>
+            #008000ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.grey">
+            <summary>
+            #808080ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.lightblue">
+            <summary>
+            #add8e6ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.lime">
+            <summary>
+            #00ff00ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.magenta">
+            <summary>
+            #ff00ffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.maroon">
+            <summary>
+            #800000ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.navy">
+            <summary>
+            #000080ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.olive">
+            <summary>
+            #808000ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.orange">
+            <summary>
+            #ffa500ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.purple">
+            <summary>
+            #800080ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.red">
+            <summary>
+            #ff0000ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.silver">
+            <summary>
+            #c0c0c0ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.teal">
+            <summary>
+            #008080ff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.white">
+            <summary>
+            #ffffffff
+            </summary>
+        </member>
+        <member name="F:R2357.TextMarkup.TextColor.yellow">
+            <summary>
+            #ffff00ff
+            </summary>
+        </member>
+        <member name="T:R2357.TextMarkup.TextMarkup">
+            <summary>
+            Add markup to the string.
+            </summary>
+        </member>
+        <member name="M:R2357.TextMarkup.TextMarkup.SetColor(System.String,UnityEngine.Color)">
+            <summary>
+            Add a tag to specify the `Color` of the text markup.
+            </summary>
+            <param name="text"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:R2357.TextMarkup.TextMarkup.SetColor(System.String,R2357.TextMarkup.TextColor)">
+            <summary>
+            Add a tag to specify the `Color` of the text markup.
+            </summary>
+            <param name="text"></param>
+            <param name="color"></param>
+            <returns></returns>
+        </member>
+        <member name="M:R2357.TextMarkup.TextMarkup.SetSize(System.String,System.Int32)">
+            <summary>
+            Add a tag to specify the `Size` of the text markup.
+            </summary>
+            <param name="text"></param>
+            <param name="size"></param>
+            <returns></returns>
+        </member>
+        <member name="M:R2357.TextMarkup.TextMarkup.SetBold(System.String)">
+            <summary>
+            Add a tag to specify the `Bold` of the text markup.
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="M:R2357.TextMarkup.TextMarkup.SetItalic(System.String)">
+            <summary>
+            Add a tag to specify the `Italic` of the text markup.
+            </summary>
+            <param name="text"></param>
+            <returns></returns>
+        </member>
+        <member name="T:R2357.Extensions.BooleanExtension">
+            <summary>
+            Extension methods (Boolean).
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.BooleanExtension.Not(System.Boolean)">
+            <summary>
+            [ExtensionMethod] Negates the boolean value.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.BooleanExtension.Toggle(System.Boolean@)">
+            <summary>
+            [ExtensionMethod] Swaps the boolean values.
+            </summary>
+        </member>
+        <member name="T:R2357.Extensions.ListExtension">
+            <summary>
+            Extension methods (List).
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Back``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the last element of the list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Fromt``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the first element of the list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Sorted``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the sorted list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Reversed``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the reversed list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.MaxElement``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the largest element of the list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.MinElement``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the smallest element of the list.
+            </summary>
+        </member>
+        <member name="T:R2357.Extensions.NumberExtension">
+            <summary>
+            Extension methods (Number).
+            </summary>
+        </member>
+        <member name="T:R2357.Extensions.StringExtension">
+            <summary>
+            Extension methods (Number).
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.StringExtension.MaxElement(System.String)">
+            <summary>
+            [ExtensionMethod] Returns the smallest element of the list.
+            </summary>
+        </member>
+    </members>
+</doc>
