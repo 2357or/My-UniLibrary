@@ -1,4 +1,4 @@
-# TextMarkup
+# <img src="/icons/class.png" width="35px"/>TextMarkup
 文字列にUnityでのテキスト修飾タグを付与します.
 
 

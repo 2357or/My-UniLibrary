@@ -1,4 +1,4 @@
-# Search
+# <img src="/icons/class.png" width="35px"/>Search
 探索を行います.
 
 

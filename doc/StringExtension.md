@@ -1,4 +1,4 @@
-# StringExtension
+# <img src="/icons/class.png" width="35px"/>StringExtension
 `string`型の小規模な拡張メソッド群.
 
 

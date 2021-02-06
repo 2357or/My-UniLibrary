@@ -1,4 +1,4 @@
-# TextColor
+# <img src="/icons/enum.png" width="35px"/>TextColor
 テキスト装飾に使う基本的な色の列挙型.
 
 

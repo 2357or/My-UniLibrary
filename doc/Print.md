@@ -1,4 +1,4 @@
-# Print
+# <img src="/icons/class.png" width="35px"/>Print
 ログをUnityのコンソールに出力します.
 
 
