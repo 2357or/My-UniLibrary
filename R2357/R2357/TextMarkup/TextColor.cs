@@ -8,8 +8,6 @@
         /// <summary>
         /// Return the TextColor as a hexadecimal number.
         /// </summary>
-        /// <param name="textColor"></param>
-        /// <returns></returns>
         public static string HexNumber(this TextColor textColor) {
             string hexNumber = null;
             switch(textColor) {

@@ -129,37 +129,31 @@
             <summary>
             Output normal log.
             </summary>
-            <param name="message"></param>
         </member>
         <member name="M:R2357.Debug.Print.Log(System.Object[])">
             <summary>
             Output normal logs.
             </summary>
-            <param name="messages"></param>
         </member>
         <member name="M:R2357.Debug.Print.Warning(System.Object)">
             <summary>
             Output warning log.
             </summary>
-            <param name="message"></param>
         </member>
         <member name="M:R2357.Debug.Print.Warning(System.Object[])">
             <summary>
             Output warning logs.
             </summary>
-            <param name="message"></param>
         </member>
         <member name="M:R2357.Debug.Print.Error(System.Object)">
             <summary>
             Output error log.
             </summary>
-            <param name="message"></param>
         </member>
         <member name="M:R2357.Debug.Print.Error(System.Object[])">
             <summary>
             Output error logs.
             </summary>
-            <param name="message"></param>
         </member>
         <member name="T:R2357.TextMarkup.TextColorHelper">
             <summary>
@@ -170,8 +164,6 @@
             <summary>
             Return the TextColor as a hexadecimal number.
             </summary>
-            <param name="textColor"></param>
-            <returns></returns>
         </member>
         <member name="T:R2357.TextMarkup.TextColor">
             <summary>
@@ -297,46 +289,33 @@
             <summary>
             Add a tag to specify the `Color` of the text markup.
             </summary>
-            <param name="text"></param>
-            <param name="color"></param>
-            <returns></returns>
         </member>
         <member name="M:R2357.TextMarkup.TextMarkup.SetColor(System.String,R2357.TextMarkup.TextColor)">
             <summary>
             Add a tag to specify the `Color` of the text markup.
             </summary>
-            <param name="text"></param>
-            <param name="color"></param>
-            <returns></returns>
         </member>
         <member name="M:R2357.TextMarkup.TextMarkup.SetSize(System.String,System.Int32)">
             <summary>
             Add a tag to specify the `Size` of the text markup.
             </summary>
-            <param name="text"></param>
-            <param name="size"></param>
-            <returns></returns>
         </member>
         <member name="M:R2357.TextMarkup.TextMarkup.SetBold(System.String)">
             <summary>
             Add a tag to specify the `Bold` of the text markup.
             </summary>
-            <param name="text"></param>
-            <returns></returns>
         </member>
         <member name="M:R2357.TextMarkup.TextMarkup.SetItalic(System.String)">
             <summary>
             Add a tag to specify the `Italic` of the text markup.
             </summary>
-            <param name="text"></param>
-            <returns></returns>
         </member>
         <member name="T:R2357.Extensions.BooleanExtension">
             <summary>
             Extension methods (Boolean).
             </summary>
         </member>
-        <member name="M:R2357.Extensions.BooleanExtension.Not(System.Boolean)">
+        <member name="M:R2357.Extensions.BooleanExtension.Not(System.Boolean@)">
             <summary>
             [ExtensionMethod] Negates the boolean value.
             </summary>
@@ -356,7 +335,7 @@
             [ExtensionMethod] Returns the last element of the list.
             </summary>
         </member>
-        <member name="M:R2357.Extensions.ListExtension.Fromt``1(System.Collections.Generic.List{``0})">
+        <member name="M:R2357.Extensions.ListExtension.Front``1(System.Collections.Generic.List{``0})">
             <summary>
             [ExtensionMethod] Returns the first element of the list.
             </summary>
