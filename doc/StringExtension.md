@@ -8,4 +8,4 @@
 ### MaxElement
 文字列内の最大の文字を返します.  
 
--`MaxElement(this string str) -> char`
+- `MaxElement(this string str) -> char`

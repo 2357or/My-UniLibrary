@@ -22,7 +22,7 @@ Listの最初の要素を返します.
 Listを昇順にソートし、そのListを返します.  
 Sort()ではできなかった、メソッドチェーンによるソートや引数にListを渡す直前にソートすることができます.
 
--`Sorted<T>(this List<T> list) -> List<T>`
+- `Sorted<T>(this List<T> list) -> List<T>`
 
 ###  Reversed
 Listの要素の順序を逆転んさせ、そのListを返します.  
@@ -34,10 +34,10 @@ Reverse()ではできなかった、メソッドチェーンによる順序反�
 List内の最大の要素を返します.  
 内部にて`IComparable`へのキャストが行いますが、キャストをしない場合との処理速度との差は要素数が1e6のListで5ms程度です.
 
--`MaxElement<T>(this List<T> list) where T : IComparable -> T`
+- `MaxElement<T>(this List<T> list) where T : IComparable -> T`
 
 ### MinElement
 List内の最小の要素を返します.  
 内部にて`IComparable`へのキャストが行いますが、キャストをしない場合との処理速度との差は要素数が1e6のListで5ms程度です.
 
--`MinElement<T>(this List<T> list) where T : IComparable -> T`
+- `MinElement<T>(this List<T> list) where T : IComparable -> T`

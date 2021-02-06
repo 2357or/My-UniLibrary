@@ -17,4 +17,4 @@
 真偽値を反転させます.  
 trueとの排他的理論和を取ります.
 
--`Toggle(this ref bool b) -> void`
+- `Toggle(this ref bool b) -> void`
