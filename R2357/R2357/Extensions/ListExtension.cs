@@ -18,7 +18,7 @@ namespace R2357.Extensions {
         /// <summary>
         /// [ExtensionMethod] Returns the first element of the list.
         /// </summary>
-        public static T Fromt<T>(this List<T> list) {
+        public static T Front<T>(this List<T> list) {
             return list[0];
         }
 
