@@ -10,7 +10,7 @@ Enum: <img src="/icons/enum.png" width="17px"/>
 ## 構成
 - <img src="/icons/namespace.png" width="17px">R2357
     - <img src="/icons/namespace.png" width="17px">Algorithm
-        - <img src="/icons/class.png" width="17px"/>[Change](/Change.md)
+        - <img src="/icons/class.png" width="17px"/>[Change](/doc/Change.md)
         - <img src="/icons/class.png" width="17px"/>[Search](/doc/Search.md)
     - <img src="/icons/namespace.png" width="17px">Debug
         - <img src="/icons/class.png" width="17px"/>[Print](/doc/Print.md)
