@@ -8,7 +8,7 @@
         /// <summary>
         /// [ExtensionMethod] Negates the boolean value.
         /// </summary>
-        public static bool Not(this bool b) {
+        public static bool Not(this ref bool b) {
             return !b;
         }
 
