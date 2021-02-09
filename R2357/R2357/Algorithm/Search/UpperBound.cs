@@ -11,7 +11,7 @@ namespace R2357.Algorithm {
         /// <summary>
         /// Returns the first index in which a value greater than to the specified element appears.
         /// </summary>
-        public static int UpperBound<T>(List<T> list, T key) where T : IComparable {
+        public static int UpperBound<T>(this List<T> list, T key) where T : IComparable {
             int l = 0;
             int r = list.Count-1;
             while(l - r < 1) {
@@ -29,7 +29,7 @@ namespace R2357.Algorithm {
         /// <summary>
         /// Returns the first index in which a value greater than to the specified element appears.
         /// </summary>
-        public static int UpperBound<T>(List<T> list, T key, Comparer<T> comparer) {
+        public static int UpperBound<T>(this List<T> list, T key, Comparer<T> comparer) {
             int l = 0;
             int r = list.Count - 1;
             while(l - r < 1) {
