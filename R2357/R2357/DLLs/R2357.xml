@@ -105,7 +105,12 @@
             Returns the first index in which a value greater than or equal to the specified element appears.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.Search.LowerBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.Comparer{``0})">
+        <member name="M:R2357.Algorithm.Search.LowerBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.IComparer{``0})">
+            <summary>
+            Returns the first index in which a value greater than or equal to the specified element appears.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.LowerBound``1(System.Collections.Generic.List{``0},``0,System.Comparison{``0})">
             <summary>
             Returns the first index in which a value greater than or equal to the specified element appears.
             </summary>
@@ -115,7 +120,12 @@
             Returns the first index in which a value greater than to the specified element appears.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.Search.UpperBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.Comparer{``0})">
+        <member name="M:R2357.Algorithm.Search.UpperBound``1(System.Collections.Generic.List{``0},``0,System.Collections.Generic.IComparer{``0})">
+            <summary>
+            Returns the first index in which a value greater than to the specified element appears.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Search.UpperBound``1(System.Collections.Generic.List{``0},``0,System.Comparison{``0})">
             <summary>
             Returns the first index in which a value greater than to the specified element appears.
             </summary>
@@ -345,7 +355,27 @@
             [ExtensionMethod] Returns the sorted list.
             </summary>
         </member>
+        <member name="M:R2357.Extensions.ListExtension.Sorted``1(System.Collections.Generic.List{``0},System.Collections.Generic.IComparer{``0})">
+            <summary>
+            [ExtensionMethod] Returns the sorted list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Sorted``1(System.Collections.Generic.List{``0},System.Comparison{``0})">
+            <summary>
+            [ExtensionMethod] Returns the sorted list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Sorted``1(System.Collections.Generic.List{``0},System.Int32,System.Int32,System.Collections.Generic.IComparer{``0})">
+            <summary>
+            [ExtensionMethod] Returns the sorted list.
+            </summary>
+        </member>
         <member name="M:R2357.Extensions.ListExtension.Reversed``1(System.Collections.Generic.List{``0})">
+            <summary>
+            [ExtensionMethod] Returns the reversed list.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.ListExtension.Reversed``1(System.Collections.Generic.List{``0},System.Int32,System.Int32)">
             <summary>
             [ExtensionMethod] Returns the reversed list.
             </summary>

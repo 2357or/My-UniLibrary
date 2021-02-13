@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using System.Runtime.CompilerServices;
 
 namespace R2357.TextMarkup {
 
@@ -10,6 +11,7 @@ namespace R2357.TextMarkup {
         /// <summary>
         /// Add a tag to specify the `Color` of the text markup.
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string SetColor(this string text, Color color) {
             string colorHtml = ColorUtility.ToHtmlStringRGBA(color);
             return $"<color=#{colorHtml}>{text}</color>";
@@ -18,6 +20,7 @@ namespace R2357.TextMarkup {
         /// <summary>
         /// Add a tag to specify the `Color` of the text markup.
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string SetColor(this string text, TextColor color) {
             return $"<color=#{color.HexNumber()}>{text}</color>";
         }
@@ -25,6 +28,7 @@ namespace R2357.TextMarkup {
         /// <summary>
         /// Add a tag to specify the `Size` of the text markup.
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string SetSize(this string text, int size) {
             return $"<size={size}>{text}</size>";
         }
@@ -32,6 +36,7 @@ namespace R2357.TextMarkup {
         /// <summary>
         /// Add a tag to specify the `Bold` of the text markup.
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string SetBold(this string text) {
             return $"<b>{text}</b>";
         }
@@ -39,6 +44,7 @@ namespace R2357.TextMarkup {
         /// <summary>
         /// Add a tag to specify the `Italic` of the text markup.
         /// </summary>
+        [MethodImpl(MethodImplOptions.AggressiveInlining)]
         public static string SetItalic(this string text) {
             return $"<i>{text}</i>";
         }

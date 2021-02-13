@@ -104,32 +104,4 @@ namespace Test.Protocol {
             }
         }
     }
-
-    public class StopWatch {
-        System.Diagnostics.Stopwatch sw;
-        public StopWatch() {
-            sw = new System.Diagnostics.Stopwatch();
-        }
-        public void Start() {
-            Console.WriteLine("Start time measurement");
-            sw.Start();
-        }
-        public void Stop() {
-            sw.Stop();
-        }
-        public void Reset() {
-            sw.Reset();
-        }
-        public void ReStart() {
-            sw.Reset();
-            Console.WriteLine("Start time measurement");
-            sw.Start();
-        }
-        public void Write() {
-            bool isRun = sw.IsRunning;
-            if(isRun) sw.Stop();
-            Console.WriteLine(sw.ElapsedMilliseconds + " ms");
-            if(isRun) sw.Start();
-        }
-    }
 }
