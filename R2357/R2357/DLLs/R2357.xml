@@ -130,6 +130,108 @@
             Returns the first index in which a value greater than to the specified element appears.
             </summary>
         </member>
+        <member name="T:R2357.Algorithm.IProperty`1">
+            <summary>
+            It has a public property named `Value`.
+            </summary>
+        </member>
+        <member name="P:R2357.Algorithm.IProperty`1.Value">
+            <summary>
+            Wrapped property.
+            </summary>
+        </member>
+        <member name="T:R2357.Algorithm.PropertyAction`1">
+            <summary>
+            Process wrapping with properties.
+            </summary>
+        </member>
+        <member name="T:R2357.Algorithm.IPropertyWrapper`1">
+            <summary>
+            Functions required to wrap property.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.IPropertyWrapper`1.InitialValue">
+            <summary>
+            Return initalaize value.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.IPropertyWrapper`1.GetAction">
+            <summary>
+            Return getter action (delegate).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.IPropertyWrapper`1.SetAction">
+            <summary>
+            Return setter action (delegate).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:R2357.Algorithm.Property`1">
+            <summary>
+            Wrapped Property.
+            </summary>
+        </member>
+        <member name="P:R2357.Algorithm.Property`1.Value">
+            <summary>
+            Wrapped property.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Property`1.#ctor">
+            <summary>
+            [Constructor] Create default Property object.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Property`1.#ctor(R2357.Algorithm.IPropertyWrapper{`0})">
+            <summary>
+            [Constructor] Create Property object using a class(inherit IPropertyWrapper).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Property`1.#ctor(`0)">
+            <summary>
+            [Constructor] Create default Property object and set initalValue.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Property`1.#ctor(`0,R2357.Algorithm.PropertyAction{`0},R2357.Algorithm.PropertyAction{`0})">
+            <summary>
+            [Constructor] Create Property object using the elements that make it up.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.Property`1.ToString">
+            <summary>
+            Return a string that represents the current object.
+            </summary>
+            <returns>A string that represents the current object.</returns>
+        </member>
+        <member name="T:R2357.Algorithm.PropertyWrapper`1">
+            <summary>
+            Base class for a sinple wrapping properties.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.PropertyWrapper`1.#ctor">
+            <summary>
+            [Constructor] Create default Property object.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.PropertyWrapper`1.#ctor(`0)">
+            <summary>
+            [Constructor] Create default Property object and set initalValue.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.PropertyWrapper`1.InitialValue">
+            <summary>
+            Return initalaize value.
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.PropertyWrapper`1.GetAction">
+            <summary>
+            Return getter action (delegate).
+            </summary>
+        </member>
+        <member name="M:R2357.Algorithm.PropertyWrapper`1.SetAction">
+            <summary>
+            Return setter action (delegate).
+            </summary>
+        </member>
         <member name="T:R2357.Debug.Print">
             <summary>
             Output log to console
