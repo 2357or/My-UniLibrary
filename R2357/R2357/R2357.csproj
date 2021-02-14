@@ -22,6 +22,7 @@
     <WarningLevel>4</WarningLevel>
     <DocumentationFile>bin\Debug\R2357.xml</DocumentationFile>
     <ConsolePause>false</ConsolePause>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>true</Optimize>
@@ -29,11 +30,12 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <ConsolePause>false</ConsolePause>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Applications\UnityEditor\2019.4.17f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Applications\UnityEditor\2020.2.4f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -49,6 +51,8 @@
     <Compile Include="Extensions\ListExtension.cs" />
     <Compile Include="Extensions\NumberExtension.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
+    <Compile Include="Algorithm\Property\Property.cs" />
+    <Compile Include="Algorithm\Property\PropertyWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />
@@ -58,6 +62,7 @@
     <Folder Include="Algorithm\Change\" />
     <Folder Include="Algorithm\Search\" />
     <Folder Include="Debug_\Print\" />
+    <Folder Include="Algorithm\Property\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
