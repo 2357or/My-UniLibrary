@@ -18,26 +18,25 @@ namespace R2357.Algorithm {
     /// </summary>
     public delegate T PropertyAction<T>(T action);
 
-
     /// <summary>
     /// Functions required to wrap property.
     /// </summary>
     public interface IPropertyWrapper<T> {
         /// <summary>
-        /// Return initalaize value.
+        /// Return initialize value.
         /// </summary>
         public T InitialValue();
 
         /// <summary>
-        /// Return getter action (delegate).
+        /// Getter.
         /// </summary>
-        public PropertyAction<T> GetAction();
+        public T GetAction(T value);
 
         /// <summary>
-        /// Return setter action (delegate).
+        /// Setter.
         /// </summary>
         /// <returns></returns>
-        public PropertyAction<T> SetAction();
+        public T SetAction(T value);
     }
 
     /// <summary>
@@ -49,46 +48,44 @@ namespace R2357.Algorithm {
         private T value = default;
 
         [NonSerialized]
-        private PropertyAction<T> GetAction;
-
-        [NonSerialized]
-        private PropertyAction<T> SetAction;
+        private readonly IPropertyWrapper<T> propertyWrapper;
 
         /// <summary>
         /// Wrapped property.
         /// </summary>
         public T Value {
             get {
-                return GetAction(value);
+                UnityEngine.Debug.Log("!");
+                return propertyWrapper.GetAction(value);
             }
             set {
-                this.value = SetAction(value);
+                this.value = propertyWrapper.SetAction(value);
             }
         }
 
         /// <summary>
         /// [Constructor] Create default Property object.
         /// </summary>
-        public Property() : this(default, null, null) { }
+        public Property() : this(new UnitPropertyWrapper<T>(default, null, null)) { }
 
         /// <summary>
-        /// [Constructor] Create Property object using a class(inherit IPropertyWrapper).
+        /// [CONSTRUCTOR] Create Property object using a class(inherit IPropertyWrapper).
         /// </summary>
-        public Property(IPropertyWrapper<T> propertyWrapper) : this(propertyWrapper.InitialValue(), propertyWrapper.GetAction(), propertyWrapper.SetAction()) { }
+        public Property(IPropertyWrapper<T> propertyWrapper) {
+            this.propertyWrapper = propertyWrapper;
+            value = propertyWrapper.InitialValue();
+        }
 
         /// <summary>
-        /// [Constructor] Create default Property object and set initalValue.
+        /// [Constructor] Create default Property object and set initialValue.
         /// </summary>
-        public Property(T initialValue) : this(initialValue, null, null) { }
+        public Property(T initialValue) : this(new UnitPropertyWrapper<T>(initialValue, null, null)) { }
 
         /// <summary>
         /// [Constructor] Create Property object using the elements that make it up.
         /// </summary>
-        public Property(T initialValue, PropertyAction<T> getAction, PropertyAction<T> setAction) {
-            this.value = initialValue;
-            this.GetAction = getAction ?? (x => x);
-            this.SetAction = setAction ?? (x => x);
-        }
+        public Property(T initialValue, PropertyAction<T> getAction, PropertyAction<T> setAction)
+            : this(new UnitPropertyWrapper<T>(initialValue, getAction, setAction)) { }
 
         /// <summary>
         /// Return a string that represents the current object.

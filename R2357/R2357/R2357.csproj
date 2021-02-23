@@ -35,7 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="UnityEngine">
-      <HintPath>..\..\..\..\..\..\Applications\UnityEditor\2020.2.4f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
+      <HintPath>..\..\..\..\..\..\Applications\UnityEditor\2020.2.3f1\Unity.app\Contents\Managed\UnityEngine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -52,7 +52,8 @@
     <Compile Include="Extensions\NumberExtension.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Algorithm\Property\Property.cs" />
-    <Compile Include="Algorithm\Property\PropertyWrapper.cs" />
+    <Compile Include="Algorithm\Property\UnitPropertyWrapper.cs" />
+    <Compile Include="Debug_\Marker\Marker.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Algorithm\" />
@@ -63,6 +64,7 @@
     <Folder Include="Algorithm\Search\" />
     <Folder Include="Debug_\Print\" />
     <Folder Include="Algorithm\Property\" />
+    <Folder Include="Debug_\Marker\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

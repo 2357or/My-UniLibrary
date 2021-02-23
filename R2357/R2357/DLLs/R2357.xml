@@ -152,17 +152,17 @@
         </member>
         <member name="M:R2357.Algorithm.IPropertyWrapper`1.InitialValue">
             <summary>
-            Return initalaize value.
+            Return initialize value.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.IPropertyWrapper`1.GetAction">
+        <member name="M:R2357.Algorithm.IPropertyWrapper`1.GetAction(`0)">
             <summary>
-            Return getter action (delegate).
+            Getter.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.IPropertyWrapper`1.SetAction">
+        <member name="M:R2357.Algorithm.IPropertyWrapper`1.SetAction(`0)">
             <summary>
-            Return setter action (delegate).
+            Setter.
             </summary>
             <returns></returns>
         </member>
@@ -183,12 +183,12 @@
         </member>
         <member name="M:R2357.Algorithm.Property`1.#ctor(R2357.Algorithm.IPropertyWrapper{`0})">
             <summary>
-            [Constructor] Create Property object using a class(inherit IPropertyWrapper).
+            [CONSTRUCTOR] Create Property object using a class(inherit IPropertyWrapper).
             </summary>
         </member>
         <member name="M:R2357.Algorithm.Property`1.#ctor(`0)">
             <summary>
-            [Constructor] Create default Property object and set initalValue.
+            [Constructor] Create default Property object and set initialValue.
             </summary>
         </member>
         <member name="M:R2357.Algorithm.Property`1.#ctor(`0,R2357.Algorithm.PropertyAction{`0},R2357.Algorithm.PropertyAction{`0})">
@@ -202,34 +202,29 @@
             </summary>
             <returns>A string that represents the current object.</returns>
         </member>
-        <member name="T:R2357.Algorithm.PropertyWrapper`1">
+        <member name="T:R2357.Algorithm.UnitPropertyWrapper`1">
             <summary>
-            Base class for a sinple wrapping properties.
+            Property object initialized from delegate
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.PropertyWrapper`1.#ctor">
+        <member name="M:R2357.Algorithm.UnitPropertyWrapper`1.#ctor(`0,R2357.Algorithm.PropertyAction{`0},R2357.Algorithm.PropertyAction{`0})">
             <summary>
-            [Constructor] Create default Property object.
+            [Constructor] Create property object using value and delegate.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.PropertyWrapper`1.#ctor(`0)">
+        <member name="M:R2357.Algorithm.UnitPropertyWrapper`1.InitialValue">
             <summary>
-            [Constructor] Create default Property object and set initalValue.
+            Return initialize value.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.PropertyWrapper`1.InitialValue">
+        <member name="M:R2357.Algorithm.UnitPropertyWrapper`1.GetAction(`0)">
             <summary>
-            Return initalaize value.
+            Getter.
             </summary>
         </member>
-        <member name="M:R2357.Algorithm.PropertyWrapper`1.GetAction">
+        <member name="M:R2357.Algorithm.UnitPropertyWrapper`1.SetAction(`0)">
             <summary>
-            Return getter action (delegate).
-            </summary>
-        </member>
-        <member name="M:R2357.Algorithm.PropertyWrapper`1.SetAction">
-            <summary>
-            Return setter action (delegate).
+            Setter.
             </summary>
         </member>
         <member name="T:R2357.Debug.Print">
@@ -265,6 +260,41 @@
         <member name="M:R2357.Debug.Print.Error(System.Object[])">
             <summary>
             Output error logs.
+            </summary>
+        </member>
+        <member name="T:R2357.Debug.Marker">
+            <summary>
+            Markers used to check the reach of the code.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.RED(System.String)">
+            <summary>
+            Red marker.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.BLUE(System.String)">
+            <summary>
+            Blue marker.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.GREEN(System.String)">
+            <summary>
+            Green marker.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.YELLOW(System.String)">
+            <summary>
+            Yellow marker.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.WHITE(System.String)">
+            <summary>
+            White marker.
+            </summary>
+        </member>
+        <member name="M:R2357.Debug.Marker.BLACK(System.String)">
+            <summary>
+            Black marker.
             </summary>
         </member>
         <member name="T:R2357.TextMarkup.TextColorHelper">
