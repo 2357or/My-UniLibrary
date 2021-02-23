@@ -527,6 +527,31 @@
             Extension methods (Number).
             </summary>
         </member>
+        <member name="M:R2357.Extensions.NumberExtension.Pow(System.Single,System.Single)">
+            <summary>
+            [ExtensionMethod] Returns the value of ex power.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.NumberExtension.Sqrt(System.Single)">
+            <summary>
+            [ExtensionMethod] Returns the value of square root.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.NumberExtension.Round(System.Single)">
+            <summary>
+            [ExtensionMethod] Returns the value rounded to the nearest integer.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.NumberExtension.Ceil(System.Single)">
+            <summary>
+            [ExtensionMethod] Returns the smallest integer greater than or equal to this value.
+            </summary>
+        </member>
+        <member name="M:R2357.Extensions.NumberExtension.Floor(System.Single)">
+            <summary>
+            [ExtensionMethod] Returns the smallest integer that is less than or equal to this value.
+            </summary>
+        </member>
         <member name="T:R2357.Extensions.StringExtension">
             <summary>
             Extension methods (Number).
